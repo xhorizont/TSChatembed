@@ -63,7 +63,7 @@ export const Badge = (props: Props) => {
       >
         <span> Telekom Slovenije</span>
       </a>
-      <br></br>
+      
       <span style={{
       "font-size": '13px',
       position: 'absolute',
