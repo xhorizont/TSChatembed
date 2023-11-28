@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
     }}>Powered by
       <a
         ref={liteBadge} 
-        href={'https://flowiseai.com'}
+        href={'https://telekom.si'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
@@ -63,6 +63,21 @@ export const Badge = (props: Props) => {
       >
         <span> Telekom Slovenije</span>
       </a>
+      <br></br>
+      <span style={{
+      "font-size": '13px',
+      position: 'absolute',
+      bottom: 0,
+      padding: '10px',
+      margin: 'auto',
+      width: '100%',
+      "text-align": 'center',
+      color: 'orange',
+      "background-color": props.badgeBackgroundColor ?? '#ffffff'
+    }}>Ne vnašajte osebnih in internih podatkov
+
+      </span>
     </span>
+    
   )
 }
