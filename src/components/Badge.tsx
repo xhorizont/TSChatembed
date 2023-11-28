@@ -63,7 +63,7 @@ export const Badge = (props: Props) => {
       >
         <span> Telekom Slovenije</span>
       </a>
-      <p style={"color:orange"}>Ne vnašajte osebnih in internih podatkov!</p>
+     
       
     </span>
     
