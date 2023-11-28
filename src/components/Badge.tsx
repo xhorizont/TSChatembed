@@ -63,20 +63,8 @@ export const Badge = (props: Props) => {
       >
         <span> Telekom Slovenije</span>
       </a>
+      <p style={"color:orange"}>Ne vnašajte osebnih in internih podatkov!</p>
       
-      <span style={{
-      "font-size": '13px',
-      position: 'absolute',
-      bottom: 0,
-      padding: '10px',
-      margin: 'auto',
-      width: '100%',
-      "text-align": 'center',
-      color: 'orange',
-      "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Ne vnašajte osebnih in internih podatkov
-
-      </span>
     </span>
     
   )
