@@ -61,9 +61,9 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Telekom Slovenije</span>
+        <span>Telekom Slovenije</span>
       </a>
-      
+
      
       
     </span>
